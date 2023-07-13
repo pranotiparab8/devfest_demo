@@ -1,0 +1,45 @@
+name: devfest_demo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-163.1.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc:
+  flutter_bloc:
+  equatable:
+  http:
+  url_launcher:
+  font_awesome_flutter:
+  shared_preferences:
+  cached_network_image:
+  share_plus:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSansRegular.ttf
+
